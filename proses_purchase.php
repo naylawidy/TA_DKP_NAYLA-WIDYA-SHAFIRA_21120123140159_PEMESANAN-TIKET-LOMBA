@@ -2,9 +2,9 @@
 // process_purchase.php
 require_once 'db_connect.php';
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $conn->real_escape_string($_POST['name']);
-    $email = $conn->real_escape_string($_POST['email']);
+if ($_SERVER["REQUEST_METHOD"] == "POST")  {
+    $name = $conn->real_escape_string($_POST['name']); 
+    $email = $conn->real_escape_string($_POST['email']); 
     $event = $conn->real_escape_string($_POST['event']);
     $quantity = $conn->real_escape_string($_POST['quantity']);
 

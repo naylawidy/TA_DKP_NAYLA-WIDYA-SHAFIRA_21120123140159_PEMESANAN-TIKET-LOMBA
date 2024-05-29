@@ -1,9 +1,19 @@
 <?php
+// confirmation.php //orientasi program 1 class,
+require_once 'Ticket.php'; // m5 orientasi prog class 
+
+<?php
 // confirmation.php
+
+// Mengimpor definisi kelas Ticket
+require_once 'Ticket.php';
+
 $name = htmlspecialchars($_GET['name']);
 $event = htmlspecialchars($_GET['event']);
 $quantity = htmlspecialchars($_GET['quantity']);
-?>
+
+$ticket = new Ticket($name, $event, $quantity);
+?> 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,6 +23,8 @@ $quantity = htmlspecialchars($_GET['quantity']);
 </head>
 <body>
     <h2>Purchase Confirmation</h2>
-    <p>Thank you, <?php echo $name; ?>, for purchasing <?php echo $quantity; ?> ticket(s) for <?php echo $event; ?>.</p>
+    <p><?php echo $ticket->displayConfirmation(); ?></p>
 </body>
 </html>
+
+

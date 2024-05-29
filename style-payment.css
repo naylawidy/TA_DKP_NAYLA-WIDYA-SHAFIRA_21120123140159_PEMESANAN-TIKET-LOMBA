@@ -1,0 +1,54 @@
+/* Style for the container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e720b6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 500px;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+}
+
+/* Style for the title */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style for the subtitle */
+h3 { 
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Style for the QR image */
+.qr-image {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    margin-left: 629px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

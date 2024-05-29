@@ -1,0 +1,18 @@
+/* style-sticket.css */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Warna latar belakang container */
+}
+
+.qr-image {
+    width: 800px; /* Sesuaikan lebar gambar QR dengan kebutuhan Anda */
+    height: auto; /* Biarkan tinggi gambar menyesuaikan proporsi */
+    border: 5px solid #ffffff; /* Ukuran dan warna border gambar QR */
+    border-radius: 10px; /* Biarkan gambar QR terlihat lebih menarik dengan border radius */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk gambar QR */
+}
