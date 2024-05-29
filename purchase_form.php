@@ -20,17 +20,15 @@
             <label for="event">Event:</label>
             <select id="event" name="event">
                 <?php
-                // Daftar event yang tersedia
+                
                 $events = array("futsal", "paskibra", "basket", "saman"); 
 
-                // Function untuk menampilkan opsi event dalam dropdown menu
-                function displayEvents($events) { 
-                    foreach ($events as $event) { 
+                function displayEvents($events) { // 
+                    foreach ($events as $event) {
                         echo "<option value='$event'>$event</option>";
                     }
                 }
 
-                // Memanggil function untuk menampilkan opsi event
                 displayEvents($events);
                 ?>
             </select><br><br>

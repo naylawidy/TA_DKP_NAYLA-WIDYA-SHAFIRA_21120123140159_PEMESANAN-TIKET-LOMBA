@@ -12,8 +12,6 @@
         <p>Your payment has been successfully processed.</p>
         <p>Silakan cek email anda untuk melihat ticket.</p>
        
-
-        <a href="ticket-fisik.php" class="btn">Lanjut</a>
     </div>
 </body>
 </html>

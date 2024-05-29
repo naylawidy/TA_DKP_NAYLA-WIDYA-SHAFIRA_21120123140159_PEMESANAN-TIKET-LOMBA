@@ -11,7 +11,7 @@ require_once 'Ticket.php';
 $name = htmlspecialchars($_GET['name']);
 $event = htmlspecialchars($_GET['event']);
 $quantity = htmlspecialchars($_GET['quantity']);
-
+ 
 $ticket = new Ticket($name, $event, $quantity);
 ?> 
 
